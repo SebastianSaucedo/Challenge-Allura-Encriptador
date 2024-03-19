@@ -1,0 +1,112 @@
+*{
+    background-color: #b8daba;
+    font-family: 'inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 150%;
+}
+
+.logo{
+    padding: 10px;
+    margin-left: 10px;
+    width: 10%;
+}
+
+main{
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;
+}
+
+.text-area{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif; 
+    color: #ffffff; 
+    width: 600px;
+    height: 300px;
+    font-size: 18px; 
+    font-weight: 400; 
+    text-align: center; 
+    background: #889ccf; 
+    margin: 10px 0 25px; 
+    overflow: hidden; 
+    padding: 20px; 
+    border-radius: 35px 0px 35px 0px; 
+    border: 2px solid #5878ca;
+    text-transform: lowercase;
+}
+
+::placeholder { color: #0a3871;}
+ .text-area:focus {
+    outline: none;
+ }
+
+ .mensaje{
+    font-family: Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+    background: white;
+    background-image: url("imagenes/Muñeco.png");
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 24px;
+    color: #0a3871;
+    margin-left: 98px;
+    margin-top: 10px;
+    padding-left: 20px;
+    position: fixed;
+ }
+
+ .mensaje:focus{
+    outline: none;
+ }
+
+.botones{
+    display: flex;
+    margin-top: 18px;
+}
+
+.boton-encriptar{
+background-color: #0a3871;
+border: 1px solid #0a3871;
+border-radius: 24px;
+color: white;
+cursor: pointer;
+height: 67px;
+width: 328px;
+}
+
+.boton-encriptar:hover{
+    background-color: darkorange;
+}
+
+.boton-desencriptar{
+    background-color: #d8dfe8;
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 30px;
+    width: 328px;
+}
+
+.boton-desencriptar:hover{
+    background-color: darkorange;
+    color: white;
+}
+
+.copiar{
+    border: 1px solid #0a3871;
+    border-radius: 24px;
+    color: #0a3871;
+    cursor: pointer;
+    height: 67px;
+    margin-left: 108px;
+    margin-top: 402px;
+    position: absolute;
+    width: 336px;
+}
+
+.parrafito{
+    color: #495057;
+    font-size: 18px;
+}
